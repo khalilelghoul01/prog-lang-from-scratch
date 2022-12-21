@@ -1,0 +1,14 @@
+const main = function () {
+  print("Hello, world!");
+  let cond = true;
+  let i = 0;
+  while (i < 10 && cond) {
+    print(i);
+    i = i + 1;
+    if (i == 5) {
+      cond = false;
+    }
+  }
+};
+let lol = null;
+main();
